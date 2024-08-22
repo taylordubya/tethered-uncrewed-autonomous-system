@@ -1,0 +1,1773 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "active": false,
+      "info": {
+        "tookoffBy": "Llama User",
+        "tookoffAt": "2021-06-01T12:00:00Z",
+        "landedBy": "Llama User",
+        "landedAt": "7/31/2024, 10:47:46 AM"
+      },
+      "logs": [
+        {
+          "logId": 15586,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "7/31/2024, 10:36:51 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 13188,
+          "level": "INFO",
+          "description": "Altitude achieved at 5.295m",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 34884,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 8132,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 47814,
+          "level": "INFO",
+          "description": "Altitude achieved at 9.7m",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 36851,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 3394,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 91540,
+          "level": "INFO",
+          "description": "Altitude achieved at 5.287m",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 1257,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 98948,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 12:15:42 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 21437,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 12:18:42 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 18237,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 12:20:49 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 93727,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 12:21:17 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 82807,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 12:21:22 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 33689,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 34232,
+          "level": "INFO",
+          "description": "Altitude achieved at 7.704m",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 30796,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "2021-06-01T12:00:00Z",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 49063,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "30/07/2024, 15:20:37 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 19752,
+          "level": "INFO",
+          "description": "Altitude achieved at 6.698m",
+          "timestamp": "30/07/2024, 15:20:38 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 66353,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "30/07/2024, 15:20:38 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 51267,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:22:29 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 1831,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:24:04 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 65269,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:34:19 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 79710,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "30/07/2024, 15:42:24 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 80933,
+          "level": "INFO",
+          "description": "Altitude achieved at 11.703m",
+          "timestamp": "30/07/2024, 15:42:29 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 54907,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "30/07/2024, 15:42:29 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 78190,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:45:17 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 53695,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "30/07/2024, 15:47:15 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 16989,
+          "level": "INFO",
+          "description": "Altitude achieved at 5.297m",
+          "timestamp": "30/07/2024, 15:47:20 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 53987,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "30/07/2024, 15:47:20 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 3557,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:48:06 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 852,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:48:08 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 39137,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:48:12 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 70283,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:48:35 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 75691,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:49:12 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 25218,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:49:41 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 23812,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:49:49 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 37352,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:49:56 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 21515,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:50:02 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 56801,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:50:12 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 91013,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:50:15 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 68939,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:50:20 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 74615,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:50:32 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 41524,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:50:41 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 56148,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:50:57 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 91051,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:51:13 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 46077,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:51:17 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 85759,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:51:19 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 36238,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:51:30 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 67937,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "30/07/2024, 15:51:57 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 33700,
+          "level": "INFO",
+          "description": "Altitude achieved at 9.707m",
+          "timestamp": "30/07/2024, 15:52:00 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 25321,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "30/07/2024, 15:52:00 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 67510,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "30/07/2024, 15:52:12 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 39534,
+          "level": "INFO",
+          "description": "Altitude achieved at 4.3m",
+          "timestamp": "30/07/2024, 15:52:17 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 81221,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "30/07/2024, 15:52:17 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 51598,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:52:28 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 34146,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:58:13 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 60085,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:58:33 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 74585,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:58:38 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 23305,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:58:42 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 71752,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/30/2024, 3:58:47 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 82867,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "30/07/2024, 16:01:49 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 99500,
+          "level": "INFO",
+          "description": "Altitude achieved at 8.701m",
+          "timestamp": "30/07/2024, 16:01:52 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 34864,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "30/07/2024, 16:01:52 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 53291,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 10:15:15 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 41790,
+          "level": "INFO",
+          "description": "Drone armed successfully.",
+          "timestamp": "07/31/2024, 10:15:15 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 11464,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:15:16 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 486,
+          "level": "INFO",
+          "description": "Altitude achieved at 2.667m",
+          "timestamp": "07/31/2024, 10:15:22 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 79414,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 10:15:22 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 409,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:15:36 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 5083,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:18:28 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 55216,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:21:03 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 99104,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:22:46 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 39278,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 10:23:04 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 69237,
+          "level": "INFO",
+          "description": "Altitude achieved at 1.303m",
+          "timestamp": "07/31/2024, 10:23:07 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 86288,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 10:23:07 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 6279,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 10:23:56 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 78059,
+          "level": "INFO",
+          "description": "Altitude achieved at 1.698m",
+          "timestamp": "07/31/2024, 10:23:57 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 1787,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 10:23:57 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 15458,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 10:24:03 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 37662,
+          "level": "INFO",
+          "description": "Altitude achieved at 5.709m",
+          "timestamp": "07/31/2024, 10:24:05 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 26348,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 10:24:05 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 82117,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:30:59 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 40015,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:31:36 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 67186,
+          "level": "INFO",
+          "description": "Drone armed successfully.",
+          "timestamp": "07/31/2024, 10:31:43 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 96604,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 10:31:43 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 11979,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:31:43 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 52530,
+          "level": "INFO",
+          "description": "Altitude achieved at 3.656m",
+          "timestamp": "07/31/2024, 10:31:52 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 22234,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 10:31:52 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 98251,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:36:51 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 83914,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:40:50 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "level": "INFO",
+          "description": "[Administrator] Llama User changed mode to AUTO.LAND",
+          "timestamp": "7/31/2024, 10:47:46 AM",
+          "dismissed": []
+        }
+      ]
+    },
+    {
+      "id": 5947,
+      "active": false,
+      "info": {
+        "tookoffBy": "Llama User",
+        "tookoffAt": "7/31/2024, 10:47:20 AM",
+        "landedBy": "",
+        "landedAt": ""
+      },
+      "logs": [
+        {
+          "logId": 5741,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 10:47:22 AM",
+          "dismissed": []
+        },
+        {
+          "logId": 98477,
+          "level": "INFO",
+          "description": "Drone armed successfully.",
+          "timestamp": "07/31/2024, 10:47:22 AM",
+          "dismissed": []
+        },
+        {
+          "logId": 18478,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:47:22 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 75014,
+          "level": "INFO",
+          "description": "Altitude achieved at 1.043m",
+          "timestamp": "07/31/2024, 10:47:29 AM",
+          "dismissed": []
+        },
+        {
+          "logId": 44319,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 10:47:29 AM",
+          "dismissed": []
+        }
+      ]
+    },
+    {
+      "id": 38831,
+      "active": false,
+      "info": {
+        "tookoffBy": "Llama User",
+        "tookoffAt": "7/31/2024, 10:49:12 AM",
+        "landedBy": "",
+        "landedAt": ""
+      },
+      "logs": [
+        {
+          "logId": 87615,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 10:49:14 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 41395,
+          "level": "INFO",
+          "description": "Drone armed successfully.",
+          "timestamp": "07/31/2024, 10:49:14 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 34382,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:49:14 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 55121,
+          "level": "INFO",
+          "description": "Altitude achieved at 2.155m",
+          "timestamp": "07/31/2024, 10:49:20 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 2820,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 10:49:20 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 37651,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:53:16 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 72298,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:54:28 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 60883,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 10:59:30 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 11515,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 11:09:56 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 41546,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 11:15:47 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 46230,
+          "level": "INFO",
+          "description": "Adjusting altitude to 4m",
+          "timestamp": "07/31/2024, 11:15:57 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 83947,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:15:59 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 77937,
+          "level": "INFO",
+          "description": "Altitude achieved at 3.704m",
+          "timestamp": "07/31/2024, 11:16:01 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 23787,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 11:16:01 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 63305,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:03 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 821,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:05 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 98161,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:07 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 38867,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:09 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 69613,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:11 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 16828,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:13 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 62234,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:15 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 66488,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:17 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 69126,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:19 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 68413,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:21 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 33318,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:23 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 83124,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:25 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 68758,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:27 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 68569,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:29 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 71308,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:31 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 4299,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:33 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 1471,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:35 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 3363,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:37 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 11745,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:39 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 53507,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:41 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 24456,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:43 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 9130,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:45 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 13090,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:16:47 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 3075,
+          "level": "INFO",
+          "description": "Adjusting altitude to 6m",
+          "timestamp": "07/31/2024, 11:17:37 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 89628,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:17:39 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 27097,
+          "level": "INFO",
+          "description": "Altitude achieved at 5.704m",
+          "timestamp": "07/31/2024, 11:17:41 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 43756,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 11:17:42 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 98549,
+          "level": "INFO",
+          "description": "Adjusting altitude to 3m",
+          "timestamp": "07/31/2024, 11:18:01 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 85716,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 11:18:03 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 15765,
+          "level": "INFO",
+          "description": "Altitude achieved at 3.289m",
+          "timestamp": "07/31/2024, 11:18:05 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 51486,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 11:18:05 AM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 70131,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 12:47:03 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 56824,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 12:48:35 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 88932,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 12:52:53 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 96466,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 1:10:07 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 10906,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:31:27 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 45248,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:31:49 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 49948,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:31:55 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 89851,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:32:48 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 53280,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:52:58 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 43143,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:55:59 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 72101,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:56:23 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 50622,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:56:41 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 96064,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:58:09 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 25805,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 2:58:32 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 61578,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:00:17 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 88250,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:02:31 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 59338,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:05:27 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 79714,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:06:02 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 34794,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:09:20 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 4942,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:10:20 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 75388,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:11:11 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 46548,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:12:43 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 16568,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:13:12 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 15535,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:14:25 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 91464,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:14:45 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 4694,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:25:27 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 85341,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 3:28:49 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 70934,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 4:22:27 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 36735,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 4:22:39 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 67091,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "7/31/2024, 4:35:07 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 62101,
+          "level": "INFO",
+          "description": "Adjusting altitude to 6m",
+          "timestamp": "07/31/2024, 04:37:12 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 77808,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 04:37:14 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 65886,
+          "level": "INFO",
+          "description": "Altitude achieved at 5.702m",
+          "timestamp": "07/31/2024, 04:37:16 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 29185,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 04:37:16 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 8265,
+          "level": "INFO",
+          "description": "Adjusting altitude to 10m",
+          "timestamp": "07/31/2024, 04:38:27 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 6272,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "07/31/2024, 04:38:29 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 67493,
+          "level": "INFO",
+          "description": "Altitude achieved at 9.702m",
+          "timestamp": "07/31/2024, 04:38:33 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 98908,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "07/31/2024, 04:38:33 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 64425,
+      "active": false,
+      "info": {
+        "tookoffBy": "Llama User",
+        "tookoffAt": "8/1/2024, 3:56:01 PM",
+        "landedBy": "",
+        "landedAt": ""
+      },
+      "logs": [
+        {
+          "logId": 68370,
+          "level": "INFO",
+          "description": "Adjusting altitude to 5m",
+          "timestamp": "08/01/2024, 03:56:02 PM",
+          "dismissed": []
+        },
+        {
+          "logId": 22313,
+          "level": "INFO",
+          "description": "Initial altitude is: 46.83122750173255",
+          "timestamp": "08/01/2024, 03:56:02 PM",
+          "dismissed": []
+        },
+        {
+          "logId": 57140,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "08/01/2024, 03:56:02 PM",
+          "dismissed": []
+        },
+        {
+          "logId": 23452,
+          "level": "INFO",
+          "description": "Drone armed successfully.",
+          "timestamp": "08/01/2024, 03:56:02 PM",
+          "dismissed": []
+        },
+        {
+          "logId": 56935,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "8/1/2024, 3:56:02 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74255,
+      "active": true,
+      "info": {
+        "tookoffBy": "Llama User",
+        "tookoffAt": "8/1/2024, 3:56:35 PM",
+        "landedBy": "",
+        "landedAt": ""
+      },
+      "logs": [
+        {
+          "logId": 82941,
+          "level": "INFO",
+          "description": "Adjusting altitude to 50m",
+          "timestamp": "08/01/2024, 03:56:35 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 99285,
+          "level": "INFO",
+          "description": "Initial altitude is: 47.61422805995027",
+          "timestamp": "08/01/2024, 03:56:35 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 861,
+          "level": "INFO",
+          "description": "Drone armed successfully.",
+          "timestamp": "08/01/2024, 03:56:35 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 8406,
+          "level": "INFO",
+          "description": "Changed mode to OFFBOARD",
+          "timestamp": "08/01/2024, 03:56:35 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 44384,
+          "level": "INFO",
+          "description": "[Administrator] Llama User has connected",
+          "timestamp": "8/1/2024, 3:56:35 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 87549,
+          "level": "INFO",
+          "description": "Altitude achieved at 49.721m",
+          "timestamp": "08/01/2024, 03:56:39 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        },
+        {
+          "logId": 56585,
+          "level": "INFO",
+          "description": "Changed mode to AUTO.LOITER",
+          "timestamp": "08/01/2024, 03:56:39 PM",
+          "dismissed": [
+            "Llama User"
+          ]
+        }
+      ]
+    }
+  ]
+}

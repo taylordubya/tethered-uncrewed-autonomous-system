@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "pin": "$2a$10$6dDZgkVjibYA1zvpo02KX.xs5O7lNY/VDktwvvSArZSDiAN3v4UWy",
+      "id": 12032,
+      "name": "Llama User",
+      "role": "Administrator"
+    },
+    {
+      "pin": "$2a$10$6XT.SP3ZJ8z/dhCWips5Lu5K2WIPnJfrC4Xl5f8xRtcKbW1FZCvRi",
+      "id": 11313,
+      "name": "Jonathan Turnage",
+      "role": "Operator"
+    }
+  ]
+}

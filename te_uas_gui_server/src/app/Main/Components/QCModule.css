@@ -1,0 +1,13 @@
+.mode-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.quick-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.m1-container .m1-header {
+  margin-left: 1rem;
+}

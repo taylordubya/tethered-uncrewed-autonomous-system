@@ -1,0 +1,19 @@
+{
+    "logs": [
+      {
+        "time": "2006-02-08 22:20:02",
+        "level": "CRITICAL",
+        "description": "Could not connect to ROS"
+      },
+      {
+        "time": "2006-02-08 22:20:02",
+        "level": "WARNING",
+        "description": "Could not connect to ROS"
+      },
+      {
+        "time": "2006-02-08 22:20:02",
+        "level": "ERROR",
+        "description": "Could not connect to ROS"
+      }
+    ]
+  }

@@ -1,0 +1,38 @@
+.previous-flights-container {
+  display: flex;
+  background-color: gray;
+  color: #D9D9D9;
+  /* margin: 1% 12%; */
+  /* height: 60%; */
+  border-radius: 7px;
+  align-content: center;
+}
+.previous-flights {
+  /* height: 100%; */
+  padding-top: 1rem;
+  width: 100%;
+  overflow: auto;
+}
+.previous-flights::-webkit-scrollbar {
+  width: 3px;
+}
+.previous-flights .line {
+  margin-top: .25rem;
+  background-color: #eaeaea43;
+}
+.previous-log {
+width: auto;
+color: #eaeaea;
+  display: block;
+  background: none;
+  margin: .5rem 1rem 1rem 1rem;
+  padding: .5rem;
+  pointer-events: all;
+  cursor: pointer;
+  box-shadow: none;
+}
+.previous-log.active {
+  background-color: #EAEAEA;
+  color:#303F77;
+  border-radius: 7px;
+}

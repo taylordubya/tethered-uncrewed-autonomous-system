@@ -1,0 +1,5 @@
+.Home {
+    display: grid;
+    grid-template-rows: 65px calc(100vh - 65px);
+    height: 100vh;
+}

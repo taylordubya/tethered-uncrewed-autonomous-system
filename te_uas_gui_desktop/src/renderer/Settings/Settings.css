@@ -1,0 +1,257 @@
+.Settings {
+    display: grid;
+    grid-template-rows: 65px calc(100vh - 65px);
+    height: 100vh;
+}
+.settings-container {
+    display: grid;
+    grid-template-columns: 350px 1px calc(100% - 351px);
+    position: fixed;
+    height: calc(100% - 65px);
+    width: 100%;
+    margin-top: 65px;
+}
+.settings-menu-container {
+    display: flex;
+    justify-content: center;
+    background: rgb(221, 221, 221);
+    border-radius: 7px 0px 7px 0px;
+}
+.settings-menu {
+    display: flex;
+    flex-direction: column;
+    margin: 25% 0;
+    align-items: center;
+    width: 70%;
+}
+.settings-profile {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 10% 0;
+    gap: 15px;
+}
+.user-pic {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+    width: 4rem;
+    height: 4rem;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+.user-info .header {
+    font-size: 1.7rem;
+    padding: 0;
+}
+.settings-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    width: 100%;
+    padding-top: 5%;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+.settings-nav .nav-item {
+    font-size: 1.2rem;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-item {
+    transition: background-color 0.25s ease-in-out;
+}
+.nav-item.active {
+    background-color: rgb(221, 221, 221);
+}
+.power-settings{
+    margin-top: auto;
+    width: 100%;
+}
+.log-out {
+    color: #f0f0f0;
+    background-color: #bbbbbb;
+    box-shadow: none;
+    /* border-radius: 0 0 7px 7px; */
+}
+.log-out:hover {
+    background-color: #999999;
+}
+.power-off {
+    color: #f0f0f0;
+    background-color: rgb(210, 0, 0);
+}
+.power-off:hover {
+    background-color: darkred;
+}
+.settings-main, .admin-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    border-radius: 0px 7px 0px 7px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.manage-users-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 5%;
+    justify-content: center;
+}
+/* Styles for user cards and remove button */
+.user-card, .create-card {
+    background-color: #f0f0f0; /* Background color for the card */
+    border: 1px solid #ddd; /* Border for the card */
+    border-radius: 8px; /* Rounded corners for the card */
+    padding: 16px; /* Padding inside the card */
+    margin: 8px 0; /* Margin around the card */
+    position: relative; /* Positioning for the remove button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+    width: 20%; /* Width of the card */
+    max-width: 200px;
+}
+
+.create-card:hover {
+    background-color: #e0e0e0;
+}
+
+.user-info .header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-info .sub-header {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.remove-user-button {
+    width: auto;
+    position: absolute; /* Positioning the button inside the card */
+    top: 8px; /* Distance from the top of the card */
+    right: 8px; /* Distance from the right of the card */
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: red; /* Red color for the button */
+    font-size: 16px; /* Font size for the button */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+}
+.user-card button {
+    box-shadow: none;
+}
+
+.remove-user-button:hover {
+    color: darkred; /* Darker red color on hover */
+}
+
+.user-actions button {
+    margin-top: 8px; /* Margin above the change PIN button */
+    padding: 8px 12px; /* Padding inside the button */
+    background-color: #007bff; /* Background color for the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for the button */
+    color: white; /* White text color */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+.user-actions button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Create New User */
+.create-user-body {
+    display: flex;
+    width: 90%;
+    gap: 2%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.user-settings {
+    display: grid;
+    grid-template-rows: 20% 1px 1fr 1fr;
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    justify-items: center;
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    margin-top: auto;
+    overflow: hidden;
+}
+.setting-description {
+    display: grid;
+    grid-template-rows: 20% 1px 1fr;
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    background-color: #f0f0f041;
+    border-radius: 7px;
+    margin-top: auto;
+    text-align: center;
+}
+.setting-description .header {
+  justify-content: center;
+}
+
+.create-name, .create-pin, .create-role {
+    /* display: flex; */
+    padding: 1rem;
+}
+.change-pin {
+  height: 3rem;
+  width: 8rem;
+  font-size: 3rem;
+}
+.user-settings .m1-header{
+  display: flex;
+  justify-content: center;
+}
+.user-settings input {
+  text-align: center;
+  margin-top: .5rem;
+}
+.user-settings .m2-header{
+  display: flex;
+  justify-content: center;
+}
+
+
+.create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+}
+.create-button:hover {
+    cursor: pointer;
+}
+
+.create-description {
+    display: grid;
+    grid-template-rows: 70% 1px calc(30% - 1px);
+    padding: 1rem;
+    text-align: center;
+}
+.create-desc-warning {
+    display: flex;
+    flex-direction: column;
+}
+.warning-label {
+    color: red;
+    font-weight: bold;
+}

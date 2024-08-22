@@ -1,0 +1,20 @@
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Roboto", Sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+  user-select: none;
+  /* cursor: default; */
+  
+}
+
+option {
+  height: 20px;
+}
+
+

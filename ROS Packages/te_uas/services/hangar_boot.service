@@ -1,0 +1,15 @@
+[Unit]
+Description= ROS2
+after=network.target
+
+[Service]
+Type=simple
+User=ubu
+ExecStart=/usr/bin/bash -c 'source /opt/ros/jazzy/setup.bash && source /home/ubu/ros2_ws/install/setup.bash && ros2 run te_uas hangar_control.launch'
+Restart=on-failure
+StartLimitIntervalSec=10
+WorkingDirectory=/home/ubu/ros2_ws
+TimeoutStopSec=10
+
+[Install]
+WantedBy=muti-user-target

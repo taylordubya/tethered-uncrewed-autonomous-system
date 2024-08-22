@@ -1,0 +1,163 @@
+#Code to operate door motors and update variable to read whether doors are open
+#Connections: Right-side motor (PUL - pin 10, DIR - pin 8)
+#             Left-side motor  (PUL - pin 13, DIR - pin 11)
+#------------------------------------------------------------------------------------------------------------------------------------------------
+
+#import dependant libraries
+import gpiozero
+import time
+
+#initialize motor/driver constants
+PUL_PER_REV = 200 #defined by switches on motor driver
+
+#function to get open command
+def getOpenCmd():
+    #read in command to open doors
+    openCmd = False #initialize open command to be False
+    openCmdStr = str(input("Door commands: type 'o' to open or press ENTER to skip command   "))   #FIXME get input from user (read from GUI in future?)
+
+    #set command based on user input
+    if(openCmdStr == 'o'):
+        openCmd = True
+    else:
+        openCmd = False
+    return openCmd
+
+#function to get close command
+def getCloseCmd():
+    #read in command to close doors
+    closeCmd = False #initialize close command to be False
+    closeCmdStr = str(input("Door commands: type 'c' to close or press ENTER to skip command   "))   #FIXME get input from user (read from GUI in future?)
+
+    #set command based on user input
+    if(closeCmdStr == 'c'):
+        closeCmd = True
+    else:
+        closeCmd = False
+    return closeCmd
+
+
+#function to control motors to open hangar doors
+def openDoors():
+
+    #configure gpio pins on raspberry pi to output to motors
+    m1PUL = gpiozero.LED(15) #set pin 8 (gpio14) to motor 1 PUL output
+    m1DIR = gpiozero.LED(14) #set pin 10 (gpio15) to motor 1 DIR output
+    m2PUL = gpiozero.LED(27) #set pin 13 (gpio27) to motor 2 PUL output
+    m2DIR = gpiozero.LED(17) #set pin 11 (gpio17) to motor 2 DIR output
+
+    #set direction of motors to open
+    m1DIR.off()  #set motor 1 (right) to turn CCW
+    m2DIR.off() #set motor 2 (left) to turn CW 
+    
+    #calculate number of pulses needed to turn motors 1/4 turn for open
+    pulCountToOpen = int(PUL_PER_REV / 4) * 13 #**FIXME can be changed depending on final door design to be 1/2 revolution
+
+    #calculate delay needed per pulse for .1 m/s opening speed
+    pulsePerMin = 22.56 * PUL_PER_REV   #22.56 rpm estimated based on 25in lever arm **FIXME based on final design - recalculate rpm (formula in function in reel motor code)
+    microsecPerPulse = 60000000 / pulsePerMin   #calculate microsecond delay needed per pulse
+    pulseDelay = microsecPerPulse / 1000000     #convert microseconds into seconds
+    print("pulse delay: " + str(pulseDelay))
+
+    #pulse motor loop
+    for i in range(0,pulCountToOpen):
+        print("pulsing open")
+        m1PUL.on() #pulse the signal
+        m2PUL.on()
+        time.sleep(pulseDelay) #delay pulse by number of seconds
+        m1PUL.off()
+        m2PUL.off()
+    return 0
+
+#function to control motors to close hangar doors
+def closeDoors():
+
+    #configure gpio pins on raspberry pi to output to motors
+    m1PUL = gpiozero.LED(15) #set pin 8 (gpio14) to motor 1 PUL output
+    m1DIR = gpiozero.LED(14) #set pin 10 (gpio15) to motor 1 DIR output
+    m2PUL = gpiozero.LED(27) #set pin 13 (gpio27) to motor 2 PUL output
+    m2DIR = gpiozero.LED(17) #set pin 11 (gpio17) to motor 2 DIR output
+
+    #set direction of motors to close
+    m1DIR.on()  #set motor 1 (right) to turn CW
+    m2DIR.on() #set motor 2 (left) to turn CCW 
+    
+    #calculate number of pulses needed to turn motors 1/4 turn for open
+    pulCountToClose = int(PUL_PER_REV / 4) * 13 #**FIXME can be changed depending on final door design to be 1/2 revolution
+
+    #calculate delay needed per pulse for .1 m/s closing speed
+    pulsePerMin = 22.56 * PUL_PER_REV   #22.56 rpm estimated based on 25in lever arm **FIXME based on final design - recalculate rpm (formula in function in reel motor code)
+    microsecPerPulse = 60000000 / pulsePerMin   #calculate microsecond delay needed per pulse
+    pulseDelay = microsecPerPulse / 1000000     #convert microseconds into seconds
+    print("pulse delay: " + str(pulseDelay))
+
+    #pulse motor loop
+    for i in range(0, pulCountToClose):
+        print("pulsing closed")
+        m1PUL.on() #pulse the signal
+        m2PUL.on()
+        time.sleep(pulseDelay) #delay pulse by number of seconds
+        m1PUL.off()
+        m2PUL.off()
+    return 0
+
+#function to clear commands
+def clearDoorCmd(openOrCloseCmd):
+    openOrCloseCmd = False
+    return openOrCloseCmd
+
+#function to change open or closed status
+def statusUpdate(isClosedOrOpen):
+    isClosedOrOpen = not(isClosedOrOpen)
+    return isClosedOrOpen
+
+#main function to control door motors
+def main():
+
+    #initialize door status to be closed
+    isOpen = False
+    isClosed = True
+            
+    while(1):   #continually loop to see if doors should open or close
+
+        #print status update at beginning of each loop iteration
+        print("Open Status: " + str(isOpen) + ", Closed Status: " + str(isClosed))
+
+        #at the beginning of each loop iteration, read commands to determine operation
+        openCmd = getOpenCmd()
+        closeCmd = getCloseCmd()
+
+        #error case, trying to both close and open simultaneously
+        if ((openCmd and closeCmd) == True):    
+            print("Error: trying to close and open at the same time") #print error message
+
+        #open case, command sent to open hangar doors
+        elif(openCmd == True):
+            if(isOpen == True): #check if doors are already open
+                print("Doors already open")
+            else:   #if doors are not already open, then open doors
+                print("Opening doors")
+                openDoors() #call function to open doors
+                isOpen, isClosed = statusUpdate(isOpen), statusUpdate(isClosed) #update door status variables
+
+        #close case, command sent to close hangar doors
+        elif(closeCmd == True):
+            if(isClosed == True):   #check if doors are already closed
+                print("Doors are already closed")
+            else:   #if doors are not already closed, then close doors
+                print("Closing doors")
+                closeDoors() #call function to close doors
+                isOpen, isClosed = statusUpdate(isOpen), statusUpdate(isClosed) #update door status variables
+        
+        #in other cases, no command is given, so continue
+        else:
+            print("No command recieved, continue")
+
+        #no matter case, clear open and close commands at the end of each loop iteration
+        clearDoorCmd(openCmd)
+        clearDoorCmd(closeCmd)
+        print("")   #format output spacing
+
+    return 0    #main function returned successfully
+
+main()

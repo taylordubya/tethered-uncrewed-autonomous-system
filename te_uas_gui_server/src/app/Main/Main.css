@@ -1,0 +1,105 @@
+.Main {
+    position: fixed;
+    height: calc(100% - 65px);
+    width: 100%;
+    margin-top: 65px;
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 15%, rgba(0, 0, 0, 0.20) 50%, rgba(0, 0, 0, 0.05) 84.58%), #EAEAEA; */
+}
+.main-container {
+    height: 95%;
+    padding: 1%;
+    margin-top: 2px;
+}
+.main-body {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 39%;
+    grid-template-rows: 70% 4% 24%;
+    gap: 10px;
+}
+.default-module {
+    display: grid;
+    width: 100%;
+    grid-column: 1;
+    grid-template-rows: 93% 10px 5%;
+}
+.module1 {
+    display: flex;
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 7px;
+    background: #EAEAEA;
+    /* background: linear-gradient(135deg, rgba(217,217,217,1) 0%, rgba(217,217,217,1) 60%, rgba(48,63,112,0.1) 100%); */
+    box-shadow: .15em .2em .4em rgba(59, 59, 59, 0.6);
+    border: 1px solid rgba(59, 59, 59, 0.055);
+}
+.m1-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 90%;
+}
+.m1-section {
+    display: flex;
+    flex-wrap: wrap;
+    color: #666;
+    font-size: .8rem;
+    align-items: center;
+}
+.m1-header {
+    color: #303F77;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 100%;
+}
+.m2-header {
+  color: #303F77;
+  font-weight: 300;
+  width: 100%;
+}
+ .mode-body, .zoom-container, .m1-section .buttons {
+    padding: 0 1rem;
+}
+.module2 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-radius: 7px;
+    background: #EAEAEA;
+    box-shadow: .15em .2em .4em rgba(59, 59, 59, 0.6);
+    border: 1px solid rgba(59, 59, 59, 0.055);
+}
+.module3 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 7px;
+    background: #EAEAEA;
+    box-shadow: .15em .2em .4em rgba(59, 59, 59, 0.6);
+    border: 1px solid rgba(59, 59, 59, 0.055);
+}
+.m3-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 65%;
+}
+.m3-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    padding-top: 0;
+    color: #666;
+    font-size: .8rem;
+    align-items: center;
+}
+.m3-section .header {
+    padding: 0rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 100%;
+}

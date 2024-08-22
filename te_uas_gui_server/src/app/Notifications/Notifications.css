@@ -1,0 +1,70 @@
+.notificationContainer {
+    /* display: none; */
+    position: fixed;
+    padding-top: 100px; /* Location of the box */
+    padding-left: 1%;
+    /* right: 0; */
+    top: 0;
+    width: 30%;
+    height: 60%;
+    pointer-events: none; /* Makes the container not block the buttons */
+}
+.notifications {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.notification {
+    display: flex;
+    align-items: center;
+    padding: .5rem 0 .5rem 1rem;
+    background: #E4E4E4;
+    border: 1px solid #D8D8D8;
+    border-radius: 8px;
+    pointer-events: all;
+}
+.notificationIndicator {
+    margin-right: .5rem;
+}
+.notificationType {
+    margin-right: .2rem;
+    /* font-weight: normal; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.notificationDesc {
+    /* font-weight: lighter; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    /* text-shadow: 1px 1px 2px black; */
+}
+.exit, .exit-all {
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+.exit-all {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 5px auto 10px 5px;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center ;
+    pointer-events: all;
+    margin: -10px 0;
+    /* z-index: 2; */
+}
+.exit-all:hover {
+    cursor: pointer;
+    
+}
+.notification:hover {
+    cursor: pointer;
+}

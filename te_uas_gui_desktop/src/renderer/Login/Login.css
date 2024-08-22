@@ -1,0 +1,108 @@
+.Login {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.server-status {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  gap: 5px;
+}
+.server-connection {
+  display: flex;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.status-indicator, .ip-input {
+    margin-left: 5px;
+}
+.server-ip {
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.ip-input {
+  margin-top: 5px; /* Space between status and input */
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: fit-content;
+  max-width: 150px; /* Set a maximum width */
+}
+.login-container {
+    display: grid;
+    height: 27.5rem;
+    width: 20.5rem;
+    grid-template-rows: 30% 10% 60%;
+    border-radius: 10px;
+    background: #EAEAEA;
+    box-shadow: 0.3em 0.3em .5em rgba(48, 63, 119, .8);
+}
+.login-header {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.login-logo {
+    max-width: 20rem;
+}
+.login-header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.login-box-container {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.login-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 5%;
+    width: 60%;
+    border-radius: 15px;
+    border: 1px solid #303F77;
+    align-items: center;
+    /* box-shadow: 0.1em 0.15em .3em rgba(48, 63, 119, 0.6); */
+}
+.circle-container {
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.pin-error {
+  text-align: center;
+  margin-top: 2rem;
+  background: #EAEAEA;
+  border-radius: 15px;
+  color: red;
+  font-style: italic;
+}
+
+.keypad-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+

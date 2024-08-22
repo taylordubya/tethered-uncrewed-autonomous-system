@@ -1,0 +1,3 @@
+bool open
+---
+te_uas_msgs/DoorStatus status

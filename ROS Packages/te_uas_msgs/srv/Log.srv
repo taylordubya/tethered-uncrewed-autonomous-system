@@ -1,0 +1,6 @@
+int64 logid
+string level
+string description
+string timestamp
+---
+bool success

@@ -1,0 +1,18 @@
+Desktop App: Moved Main Development to Electron
+
+Changes:
+- Greatly improved code readability and consistency
+- Added additional comments
+- Added login verification when navigating
+- Change only the first 9 notifications are displayed
+
+Bug Fixes:
+- Fixed crashes when not connected to the Server
+- Fixed spacing on header in the Logs section when there are zero logs
+
+
+Known Bugs:
+- ROS connection is much more elegant now, but still sometimes needs a page refresh
+
+Summary:
+This commit introduces several significant updates and enhancements to the logging and notification systems, as well as various UI improvements. The Logs component now includes basic functionality, such as viewing previous logs and automatic logging on user connection/disconnection. The Error.js file has been renamed to Notification.js, with expanded notification handling features, including the ability to dismiss notifications more flexibly. Styling and cleanup were performed across multiple components, including Main.jsx and QCModule, with a focus on improving user experience and interface consistency. Navigation handling has been centralized in App.jsx, and specific routes have been assigned to Log.jsx and Settings.jsx. Notable bug fixes address issues with user modification in Settings.jsx and the functionality of the POWER OFF button in ROS2. However, there are still known issues with navigation and ROS connections that may require attention in future updates.

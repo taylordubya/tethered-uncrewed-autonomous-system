@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "pin": "$2b$10$6wcgRsgY5fQhYDWm9H8he.8d1bfPrrTMfjLI4CllN9PYFc8gUWoGm",
+      "id": 12032,
+      "name": "Llama User",
+      "role": "Administrator"
+    },
+    {
+      "pin": "$2b$10$R8Kkc9/9CsEI/F2mBUp1LuPRvJTjCXymP8/4rsDEBPwCk0KnGHJX2",
+      "id": 11313,
+      "name": "Jonathan Turnage",
+      "role": "Operator"
+    },
+    {
+      "pin": "$2a$10$3ulBqEokghZRnyowbxqLru7GGm/Dx76xwAsp1KO.Qf9svCfUCmrtO",
+      "id": 81543,
+      "name": "Lauren Taylor",
+      "role": "Administrator"
+    }
+  ]
+}
